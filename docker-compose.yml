@@ -2,7 +2,7 @@ services:
   geth: # this is Optimism's geth client
     build: .
     ports:
-      - 8545:8545
+      - 8545:8545 # it's time to go in
       - 8546:8546
       - 30303:30303
       - 7301:6060 # metrics
